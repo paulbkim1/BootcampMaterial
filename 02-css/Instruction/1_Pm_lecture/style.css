@@ -1,0 +1,20 @@
+* {
+    /* color: blue;
+    border: 1px solid black; */
+}
+
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    color: blue;
+}
+
+.red-font {
+    color: red;
+}
+
+#purp {
+    color: purple
+}
