@@ -1,0 +1,24 @@
+.row {
+    display: flex;
+    gap: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.col {
+    background-color: teal;
+    flex: 1;
+    padding: 10px;
+}
+
+.col-2 {
+    background-color: teal;
+    flex: 2;
+    padding: 10px;
+}
+
+.col-3 {
+    background-color: teal;
+    flex: 3;
+    padding: 10px;
+}
