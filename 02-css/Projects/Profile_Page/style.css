@@ -186,6 +186,7 @@
     color: black;
     border-radius: 50%;
     background-color: #CCCCCC;
+    padding: 0px 9px;
 }
 
 #connect-label>h2 {
@@ -256,6 +257,7 @@
     border-radius: 50%;
     background-color: white;
     color: black;
+    padding: 9px 0px;
 }
 
 #connection-names {
