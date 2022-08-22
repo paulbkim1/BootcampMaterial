@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoLab</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- top navigation -->
+    <div class="top">
+        <div class="nav-container">
+            <h1>VideoLab</h1>
+            <input type="text" placeholder="Search" name="query" class="search">
+            <button class="btn">Login</button>
+        </div>
+    </div>
+
+    <!-- main content -->
+    <div class="flex-container">
+
+        <!-- left column -->
+        <div class="col-l">
+
+            <!-- this is a placeholder replace it with a real video -->
+            <video onmouseover="playVideo(this)" onmouseout="stopVideo(this)"
+                src="https://player.vimeo.com/external/464476643.sd.mp4?s=5659c7980e3b3a79668b0af07052b5ba509ca72f&profile_id=164&oauth2_token_id=57447761"
+                muted="muted"></video>
+
+            <!-- video info -->
+            <div class="row">
+                <div class="start">
+                    <h1>Evening Time</h1>
+                    <h3>1.3K Views | June, 18, 2021</h3>
+                    <div class="user">
+                        <img src="assets/user.png" alt="user-circle" class="avatar-s">
+                        <span class="user-name">Example User Name</span>
+                    </div>
+                </div>
+                <button class="btn">Subscribe</button>
+            </div>
+
+        </div>
+
+        <!-- right column -->
+        <div class="col-r">
+
+            <h3 class="sub-header">Up Next</h3>
+
+            <div class="video-small">
+                <video onmouseover="playVideo(this)" onmouseout="stopVideo(this)"
+                    src="https://player.vimeo.com/external/587458036.sd.mp4?s=ddcac4b38ae6c8cf056710392416e9199ba23b07&profile_id=165&oauth2_token_id=57447761"
+                    muted="muted">
+                </video>
+                <span class="video-title">Vibes</span>
+            </div>
+
+            <div class="video-small">
+                <video onmouseover="playVideo(this)" onmouseout="stopVideo(this)"
+                    src="https://player.vimeo.com/external/559206060.sd.mp4?s=991e3c00685cec135307ce94d63ba868149bd221&profile_id=165&oauth2_token_id=57447761"
+                    muted="muted"></video>
+                <span class="video-title">Stars</span>
+            </div>
+
+            <div class="video-small">
+                <video onmouseover="playVideo(this)" onmouseout="stopVideo(this)"
+                    src="https://player.vimeo.com/external/424984015.sd.mp4?s=31efac8660fd47567a6604063aa630dc32882e76&profile_id=165&oauth2_token_id=57447761"
+                    muted="muted"></video>
+                <span class="video-title">Yarn tips</span>
+            </div>
+
+            <div class="video-small">
+                <video onmouseover="playVideo(this)" onmouseout="stopVideo(this)"
+                    src="https://player.vimeo.com/external/556623896.sd.mp4?s=21e182478e48ff679d131fb30e47feb12a9f5c71&profile_id=165&oauth2_token_id=57447761"
+                    muted="muted"></video>
+                <span class="video-title">Bridge</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
