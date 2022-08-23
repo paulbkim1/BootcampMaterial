@@ -1,3 +1,5 @@
+console.log("page loaded...");
+
 function editname(namechange) {
     var nameid = document.querySelector("#" + namechange);
     nameid.innerText = "Paul Kim";
